@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern SaaS Homepage</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 bg-white shadow-md sticky top-0 z-50">
+    <div class="text-2xl font-bold text-blue-600">SaaSify</div>
+    <input type="checkbox" id="check" class="hidden">
+    <label for="check" class="text-2xl cursor-pointer md:hidden">&#9776;</label>
+    <ul class="absolute top-16 left-0 w-full h-screen bg-white flex flex-col justify-center items-center gap-8 transform -translate-x-full transition-transform duration-300 md:static md:flex-row md:h-auto md:gap-8 md:translate-x-0">
+      <li><a href="#features" class="text-lg hover:text-blue-600">Features</a></li>
+      <li><a href="#pricing" class="text-lg hover:text-blue-600">Pricing</a></li>
+      <li><a href="#testimonials" class="text-lg hover:text-blue-600">Testimonials</a></li>
+      <li><a href="#contact" class="text-lg hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-blue-500 to-blue-700 text-white text-center py-20">
+    <div class="max-w-4xl mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">Revolutionize Your Workflow</h1>
+      <p class="text-lg md:text-xl mb-8">Streamline your business processes with our cutting-edge SaaS platform.</p>
+      <a href="#features" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-12">Features</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Automation</h3>
+          <p>Automate repetitive tasks and save time.</p>
+        </div>
+        <div class="p-6 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Analytics</h3>
+          <p>Gain insights with powerful analytics tools.</p>
+        </div>
+        <div class="p-6 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Collaboration</h3>
+          <p>Work seamlessly with your team in real-time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-12">Pricing</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-6 bg-gray-50 shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Basic</h3>
+          <p class="text-2xl font-bold mb-6">$10/month</p>
+          <ul class="mb-6">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+          </ul>
+          <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Choose Plan</a>
+        </div>
+        <div class="p-6 bg-gray-50 shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Pro</h3>
+          <p class="text-2xl font-bold mb-6">$30/month</p>
+          <ul class="mb-6">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+          </ul>
+          <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-12">What Our Customers Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-6 bg-white shadow-md rounded-lg">
+          <p>"This platform has transformed our business!"</p>
+          <h4 class="mt-4 font-semibold">- Jane Doe</h4>
+        </div>
+        <div class="p-6 bg-white shadow-md rounded-lg">
+          <p>"Incredible features and amazing support."</p>
+          <h4 class="mt-4 font-semibold">- John Smith</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="py-10 bg-blue-700 text-white text-center">
+    <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+    <p>Email: support@saasify.com</p>
+    <p>Phone: +1 234 567 890</p>
+    <p class="mt-4">&copy; 2025 SaaSify. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
